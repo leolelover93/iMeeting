@@ -1,0 +1,51 @@
+ppla_ListTitle	Gestion des Paramètres Planning
+ppla_CreateTitle	Nouveau Paramètre Planning
+ppla_DetailTitle	Détails Paramètre Planning
+ppla_EditTitle	Modifier Paramètre Planning
+ppla_DeleteTitle	Supprimer Paramètre Planning
+menu_PlanningSettings	Paramètres Planning
+ppla_Id	Id	Table PlanningSettings.Id
+ppla_IdRequired	Le champ {0} est requis!	Table PlanningSettings.Id
+ppla_IdDataType	Le champ {0} doit être un nombre !	Table PlanningSettings.Id
+ppla_affi_select	<< Veuillez sélectionner un point d'affichage >>
+ppla_PointAffichageId	Point d'affichage	Table PlanningSettings.PointAffichageId
+ppla_PointAffichageIdRequired	Le champ {0} est requis!	Table PlanningSettings.PointAffichageId
+ppla_PointAffichageIdDataType	Le champ {0} doit être un nombre !	Table PlanningSettings.PointAffichageId
+ppla_lieu_select	<< Veuillez sélectionner un lieu >>
+ppla_LieuId	Lieu	Table PlanningSettings.LieuId
+ppla_LieuIdRequired	Le champ {0} est requis!	Table PlanningSettings.LieuId
+ppla_LieuIdDataType	Le champ {0} doit être un nombre !	Table PlanningSettings.LieuId
+ppla_Afficher	Afficher	Table PlanningSettings.Afficher
+ppla_AfficherRequired	Le champ {0} est requis!	Table PlanningSettings.Afficher
+ppla_ViewType	ViewType	Table PlanningSettings.ViewType
+ppla_ViewTypeRequired	Le champ {0} est requis!	Table PlanningSettings.ViewType
+ppla_ViewTypeDataType	Le champ {0} doit être un nombre !	Table PlanningSettings.ViewType
+ppla_MaxCharsPage	MaxCharsPage	Table PlanningSettings.MaxCharsPage
+ppla_MaxCharsPageRequired	Le champ {0} est requis!	Table PlanningSettings.MaxCharsPage
+ppla_MaxCharsPageDataType	Le champ {0} doit être un nombre !	Table PlanningSettings.MaxCharsPage
+ppla_MaxPageElements	MaxPageElements	Table PlanningSettings.MaxPageElements
+ppla_MaxPageElementsRequired	Le champ {0} est requis!	Table PlanningSettings.MaxPageElements
+ppla_MaxPageElementsDataType	Le champ {0} doit être un nombre !	Table PlanningSettings.MaxPageElements
+ppla_LibelleVue	LibelleVue	Table PlanningSettings.LibelleVue
+ppla_LibelleVueLong	Le champ {0} ne peut dépasser 150 caractères !	Table PlanningSettings.LibelleVue
+ppla_Animation	Animation	Table PlanningSettings.Animation
+ppla_AnimationLong	Le champ {0} ne peut dépasser 150 caractères !	Table PlanningSettings.Animation
+ppla_AnimationTime	AnimationTime	Table PlanningSettings.AnimationTime
+ppla_AnimationTimeRequired	Le champ {0} est requis!	Table PlanningSettings.AnimationTime
+ppla_AnimationTimeDataType	Le champ {0} doit être un nombre !	Table PlanningSettings.AnimationTime
+ppla_ViewShowTime	ViewShowTime	Table PlanningSettings.ViewShowTime
+ppla_ViewShowTimeRequired	Le champ {0} est requis!	Table PlanningSettings.ViewShowTime
+ppla_ViewShowTimeDataType	Le champ {0} doit être un nombre !	Table PlanningSettings.ViewShowTime
+ppla_LibellePeriode	LibellePeriode	Table PlanningSettings.LibellePeriode
+ppla_LibellePeriodeLong	Le champ {0} ne peut dépasser 150 caractères !	Table PlanningSettings.LibellePeriode
+ppla_BackgoundImage	BackgoundImage	Table PlanningSettings.BackgoundImage
+ppla_BackgoundImageLong	Le champ {0} ne peut dépasser 150 caractères !	Table PlanningSettings.BackgoundImage
+ppla_DivClassName	DivClassName	Table PlanningSettings.DivClassName
+ppla_DivClassNameLong	Le champ {0} ne peut dépasser 150 caractères !	Table PlanningSettings.DivClassName
+ppla_UserId	UserId	Table PlanningSettings.UserId
+ppla_UserIdRequired	Le champ {0} est requis!	Table PlanningSettings.UserId
+ppla_UserIdLong	Le champ {0} ne peut dépasser 128 caractères !	Table PlanningSettings.UserId
+ppla_DateCreation	DateCreation	Table PlanningSettings.DateCreation
+ppla_DateCreationRequired	Le champ {0} est requis!	Table PlanningSettings.DateCreation
+ppla_DateCreationDataType	Le champ {0} doit être une date !	Table PlanningSettings.DateCreation
+

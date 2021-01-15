@@ -1,0 +1,204 @@
+﻿body {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    /*background-image:url(Images/SPM.png);*/ 
+    background-color :beige ;
+    background-repeat :no-repeat ;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 380px;/*280px*/
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.required-field .control-label:after {
+    content: " *";
+    font-weight: bold;
+    color: red;
+}
+
+.form-horizontal .control-label{
+    /* text-align:right; */
+    text-align:left;
+}
+
+/* Aligner la dernière ligne qui contient les boutons*/
+table tr td:last-child {
+    white-space: nowrap;
+    width: 1px;
+}
+
+.panel-title a {
+    /*display: block;*/
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: -10px -15px;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    /*position: fixed;*/
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    margin-top: 20px;/*padding: 20px*/
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    /*background-color: #f5f5f5;
+    border-right: 1px solid #eee;*/
+  }
+}
+
+/* Sidebar navigation */
+/*.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border *
+  margin-bottom: 20px;
+  margin-left: -20px;
+}*/
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #04b225;
+}
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 0px 0px 0px 0px;/*20px*/
+  padding-left: 20px;/*40px*/
+  padding-right: 20px;/*40px*/
+}
+
+.jumbotron {
+  margin-top: 20px;/*juste pour ajuster avec le main d'en haut sinon non stylé*/
+}
+
+@media (min-width: 768px) {
+  .main {
+    padding-right: 20px;/*40px*/
+    padding-left: 20px;/*40px*/
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+.ENQUIRY {
+    background-color: #FF9933;
+    border-color: #C0C0C0; 
+    color: White;
+    /*background-position: 1px 1px;
+    background-repeat: no-repeat;
+    background-image: url('Bubble.png');*/
+    padding-left: 5px;
+}
+
+.BOOKED {
+    background-color: #33CCFF;
+    border-color: #C0C0C0;
+    color: White; /* text color */
+    /*background-position: 1px 1px;
+    background-repeat: no-repeat;
+    background-image: url('ok.png');*/
+    padding-left: 5px;
+}
+
+.CONFIRMED {
+    background-color: #33CC33;
+    border-color: #C0C0C0;
+    color: White; /* text color */
+    /*background-position: 1px 1px;
+    background-repeat: no-repeat;
+    background-image: url('Money.png');*/
+    padding-left: 5px;
+}
+
+/* Menu de gauche */
+.list-group.panel > .list-group-item {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px
+}
+.list-group-submenu {
+  margin-left:20px;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.nav-tabs {
+    margin-bottom: 0px;
+}
+
+
+.placeholder { color: #aaa; }
+
+/* glyphicons size */
+.gi-2x{font-size: 2em;}
+.gi-3x{font-size: 3em;}
+.gi-4x{font-size: 4em;}
+.gi-5x{font-size: 5em;}

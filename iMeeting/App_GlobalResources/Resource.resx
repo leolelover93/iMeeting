@@ -1,0 +1,1537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="acc_confirm" xml:space="preserve">
+    <value>Confirmer le mot de passe</value>
+  </data>
+  <data name="acc_confirmError" xml:space="preserve">
+    <value>Le mot de passe et le mot de passe de confirmation ne correspondent pas.</value>
+  </data>
+  <data name="acc_confirmnewpwd" xml:space="preserve">
+    <value>Confirmer le nouveau mot de passe</value>
+  </data>
+  <data name="acc_currentpwd" xml:space="preserve">
+    <value>Mot de passe actuel</value>
+  </data>
+  <data name="acc_email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="acc_listTitle" xml:space="preserve">
+    <value>Gestion des utilisateurs</value>
+  </data>
+  <data name="acc_newpwd" xml:space="preserve">
+    <value>Nouveau mot de passe</value>
+  </data>
+  <data name="acc_newuser" xml:space="preserve">
+    <value>Nouvel utilisateur</value>
+  </data>
+  <data name="acc_noms" xml:space="preserve">
+    <value>Noms</value>
+  </data>
+  <data name="acc_prenoms" xml:space="preserve">
+    <value>Prénoms</value>
+  </data>
+  <data name="acc_pwd" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="acc_pwdLong" xml:space="preserve">
+    <value>Le mot de passe doit comporter au moins {2} caractères.</value>
+  </data>
+  <data name="acc_remember" xml:space="preserve">
+    <value>Mémoriser le mot de passe ?</value>
+  </data>
+  <data name="acc_service" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="acc_tel" xml:space="preserve">
+    <value>Téléphone</value>
+  </data>
+  <data name="acc_username" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="app_copyrigth" xml:space="preserve">
+    <value>Services du Premier Ministre</value>
+  </data>
+  <data name="app_name" xml:space="preserve">
+    <value>Système d'Orientation et de Gestion Informatisée des Réunions</value>
+  </data>
+  <data name="BackToList" xml:space="preserve">
+    <value>Retour à la liste</value>
+  </data>
+  <data name="bati_CreateTitle" xml:space="preserve">
+    <value>Nouveau Batiment</value>
+  </data>
+  <data name="bati_DeleteTitle" xml:space="preserve">
+    <value>Supprimer Batiment</value>
+  </data>
+  <data name="bati_Details" xml:space="preserve">
+    <value>Observations</value>
+    <comment>Table BATIMENT.DETAILS</comment>
+  </data>
+  <data name="bati_DetailsLong" xml:space="preserve">
+    <value>Le champ Observations ne peut dépasser 4000 caractères !</value>
+    <comment>Table BATIMENT.DETAILS</comment>
+  </data>
+  <data name="bati_DetailTitle" xml:space="preserve">
+    <value>Détails Batiment</value>
+  </data>
+  <data name="bati_EditTitle" xml:space="preserve">
+    <value>Modifier Batiment</value>
+  </data>
+  <data name="bati_Libelle" xml:space="preserve">
+    <value>Désignation</value>
+    <comment>Table BATIMENT.LIBELLE</comment>
+  </data>
+  <data name="bati_LibelleLong" xml:space="preserve">
+    <value>Le champ "Désignation" ne peut dépasser 150 caractères !</value>
+    <comment>Table BATIMENT.LIBELLE</comment>
+  </data>
+  <data name="bati_LibelleRequired" xml:space="preserve">
+    <value>Le champ "Désignation" est requis !</value>
+    <comment>Table BATIMENT.LIBELLE</comment>
+  </data>
+  <data name="bati_ListTitle" xml:space="preserve">
+    <value>Gestion des bâtiments</value>
+  </data>
+  <data name="bati_NbrePiece" xml:space="preserve">
+    <value>Nombre de pièces</value>
+    <comment>Table BATIMENT.NBRE_PIECE</comment>
+  </data>
+  <data name="bati_NbrePieceDataType" xml:space="preserve">
+    <value>Le champ "Nombre de pièces" doit être un nombre positif !</value>
+    <comment>Table BATIMENT.NBRE_PIECE</comment>
+  </data>
+  <data name="bati_Position" xml:space="preserve">
+    <value>Position</value>
+    <comment>Table BATIMENT.POSITION</comment>
+  </data>
+  <data name="bati_PositionLong" xml:space="preserve">
+    <value>Le champ "Position" ne peut dépasser 2 caractères !</value>
+    <comment>Table BATIMENT.POSITION</comment>
+  </data>
+  <data name="bati_PositionRequired" xml:space="preserve">
+    <value>Le champ "Position" est requis!</value>
+    <comment>Table BATIMENT.POSITION</comment>
+  </data>
+  <data name="bati_select" xml:space="preserve">
+    <value>Sélectionner un bâtiment</value>
+  </data>
+  <data name="bur_CreateTitle" xml:space="preserve">
+    <value>Nouveau Bureau</value>
+  </data>
+  <data name="bur_DATECREATION" xml:space="preserve">
+    <value>DATE_CREATION</value>
+    <comment>Table BUREAU.DATE_CREATION</comment>
+  </data>
+  <data name="bur_DATECREATIONDataType" xml:space="preserve">
+    <value>Le champ {0} doit être une date !</value>
+    <comment>Table BUREAU.DATE_CREATION</comment>
+  </data>
+  <data name="bur_DATECREATIONRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table BUREAU.DATE_CREATION</comment>
+  </data>
+  <data name="bur_DeleteTitle" xml:space="preserve">
+    <value>Supprimer Bureau</value>
+  </data>
+  <data name="bur_DETAILS" xml:space="preserve">
+    <value>Détails</value>
+    <comment>Table BUREAU.DETAILS</comment>
+  </data>
+  <data name="bur_DETAILSLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 4000 caractères !</value>
+    <comment>Table BUREAU.DETAILS</comment>
+  </data>
+  <data name="bur_DetailTitle" xml:space="preserve">
+    <value>Détails Bureau</value>
+  </data>
+  <data name="bur_EditTitle" xml:space="preserve">
+    <value>Modifier Bureau</value>
+  </data>
+  <data name="bur_EMPLACEMENT" xml:space="preserve">
+    <value>Emplacement</value>
+    <comment>Table BUREAU.EMPLACEMENT</comment>
+  </data>
+  <data name="bur_EMPLACEMENTLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 4000 caractères !</value>
+    <comment>Table BUREAU.EMPLACEMENT</comment>
+  </data>
+  <data name="bur_IDBUREAU" xml:space="preserve">
+    <value>ID_BUREAU</value>
+    <comment>Table BUREAU.ID_BUREAU</comment>
+  </data>
+  <data name="bur_IDBUREAUDataType" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre !</value>
+    <comment>Table BUREAU.ID_BUREAU</comment>
+  </data>
+  <data name="bur_IDBUREAURequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table BUREAU.ID_BUREAU</comment>
+  </data>
+  <data name="bur_IDSERVICE" xml:space="preserve">
+    <value>Service</value>
+    <comment>Table BUREAU.ID_SERVICE</comment>
+  </data>
+  <data name="bur_IDSERVICEDataType" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre !</value>
+    <comment>Table BUREAU.ID_SERVICE</comment>
+  </data>
+  <data name="bur_IDSERVICERequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table BUREAU.ID_SERVICE</comment>
+  </data>
+  <data name="bur_LIBELLE" xml:space="preserve">
+    <value>Libellé</value>
+    <comment>Table BUREAU.LIBELLE</comment>
+  </data>
+  <data name="bur_LIBELLELong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table BUREAU.LIBELLE</comment>
+  </data>
+  <data name="bur_LIBELLERequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table BUREAU.LIBELLE</comment>
+  </data>
+  <data name="bur_ListTitle" xml:space="preserve">
+    <value>Gestion des Bureaux</value>
+  </data>
+  <data name="bur_serv_select" xml:space="preserve">
+    <value>&lt;&lt; Veuillez sélectionner un Service &gt;&gt;</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="cere_CreateTitle" xml:space="preserve">
+    <value>Nouvel Espace de cérémonie</value>
+  </data>
+  <data name="cere_DeleteTitle" xml:space="preserve">
+    <value>Supprimer Espace de cérémonie</value>
+  </data>
+  <data name="cere_DetailTitle" xml:space="preserve">
+    <value>Détails Espace de cérémonie</value>
+  </data>
+  <data name="cere_EditTitle" xml:space="preserve">
+    <value>Modifier Espace de cérémonie</value>
+  </data>
+  <data name="cere_ListTitle" xml:space="preserve">
+    <value>Gestion des Espaces de cérémonie</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>Etes-vous sûr de vouloir supprimer cet enregistrement ?</value>
+  </data>
+  <data name="conv_Content" xml:space="preserve">
+    <value>Content</value>
+    <comment>Table CONVOCATION.CONTENT</comment>
+  </data>
+  <data name="conv_ContentFilename" xml:space="preserve">
+    <value>Fichier contenu</value>
+    <comment>Table CONVOCATION.CONTENT_FILENAME</comment>
+  </data>
+  <data name="conv_ContentFilenameLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table CONVOCATION.CONTENT_FILENAME</comment>
+  </data>
+  <data name="conv_CreateTitle" xml:space="preserve">
+    <value>Nouveau Convocation</value>
+  </data>
+  <data name="conv_DateCreation" xml:space="preserve">
+    <value>Date création</value>
+    <comment>Table CONVOCATION.DATE_CREATION</comment>
+  </data>
+  <data name="conv_DateCreationDataType" xml:space="preserve">
+    <value>Le champ {0} doit être une date !</value>
+    <comment>Table CONVOCATION.DATE_CREATION</comment>
+  </data>
+  <data name="conv_DateCreationRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table CONVOCATION.DATE_CREATION</comment>
+  </data>
+  <data name="conv_DeleteTitle" xml:space="preserve">
+    <value>Supprimer Convocation</value>
+  </data>
+  <data name="conv_DetailTitle" xml:space="preserve">
+    <value>Détails Convocation</value>
+  </data>
+  <data name="conv_EditTitle" xml:space="preserve">
+    <value>Modifier Convocation</value>
+  </data>
+  <data name="conv_IdReservation" xml:space="preserve">
+    <value>Réservation</value>
+    <comment>Table CONVOCATION.ID_RESERVATION</comment>
+  </data>
+  <data name="conv_IdReservationDataType" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre !</value>
+    <comment>Table CONVOCATION.ID_RESERVATION</comment>
+  </data>
+  <data name="conv_IdReservationRequired" xml:space="preserve">
+    <value>Le champ {0} est requis !</value>
+    <comment>Table CONVOCATION.ID_RESERVATION</comment>
+  </data>
+  <data name="conv_ListTitle" xml:space="preserve">
+    <value>Gestion des Convocations</value>
+  </data>
+  <data name="conv_Objet" xml:space="preserve">
+    <value>Objet</value>
+    <comment>Table CONVOCATION.OBJET</comment>
+  </data>
+  <data name="conv_ObjetLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 4000 caractères !</value>
+    <comment>Table CONVOCATION.OBJET</comment>
+  </data>
+  <data name="conv_ObjetRequired" xml:space="preserve">
+    <value>Le champ {0} est requis !</value>
+    <comment>Table CONVOCATION.OBJET</comment>
+  </data>
+  <data name="conv_Reference" xml:space="preserve">
+    <value>SMS</value>
+    <comment>Table CONVOCATION.SMS</comment>
+  </data>
+  <data name="conv_ReferenceLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 1000 caractères !</value>
+    <comment>Table CONVOCATION.SMS</comment>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Nouveau</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="Enregistrements" xml:space="preserve">
+    <value>Enregistrement(s)</value>
+  </data>
+  <data name="FieldMustBeDate" xml:space="preserve">
+    <value>Le champ {0} doit être une date.</value>
+  </data>
+  <data name="FieldMustBeNumeric" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre.</value>
+  </data>
+  <data name="FieldRequired" xml:space="preserve">
+    <value>Le champ {0} être requis.</value>
+  </data>
+  <data name="Find" xml:space="preserve">
+    <value>Rechercher</value>
+  </data>
+  <data name="FindCriteria" xml:space="preserve">
+    <value>Critère de recherche :</value>
+  </data>
+  <data name="lieu_Capacite" xml:space="preserve">
+    <value>Capacité</value>
+    <comment>Table LIEUX.CAPACITE</comment>
+  </data>
+  <data name="lieu_CapaciteRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table LIEUX.CAPACITE</comment>
+  </data>
+  <data name="lieu_CreateTitle" xml:space="preserve">
+    <value>Nouvelle Salle de Réunions</value>
+  </data>
+  <data name="lieu_DeleteTitle" xml:space="preserve">
+    <value>Supprimer Salle de Réunions</value>
+  </data>
+  <data name="lieu_Details" xml:space="preserve">
+    <value>Observations</value>
+    <comment>Table LIEUX.DETAILS</comment>
+  </data>
+  <data name="lieu_DetailsLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 4000 caractères !</value>
+    <comment>Table LIEUX.DETAILS</comment>
+  </data>
+  <data name="lieu_DetailTitle" xml:space="preserve">
+    <value>Détails Salle de Réunions</value>
+  </data>
+  <data name="lieu_EditTitle" xml:space="preserve">
+    <value>Modifier Salle de Réunions</value>
+  </data>
+  <data name="lieu_Emplacement" xml:space="preserve">
+    <value>Emplacement</value>
+    <comment>Table LIEUX.EMPLACEMENT</comment>
+  </data>
+  <data name="lieu_EmplacementLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 4000 caractères !</value>
+    <comment>Table LIEUX.EMPLACEMENT</comment>
+  </data>
+  <data name="lieu_IdBat" xml:space="preserve">
+    <value>Bâtiment</value>
+    <comment>Table LIEUX.ID_BAT</comment>
+  </data>
+  <data name="lieu_IdBatRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table LIEUX.ID_BAT</comment>
+  </data>
+  <data name="lieu_Libelle" xml:space="preserve">
+    <value>Désignation</value>
+    <comment>Table LIEUX.LIBELLE</comment>
+  </data>
+  <data name="lieu_LibelleLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table LIEUX.LIBELLE</comment>
+  </data>
+  <data name="lieu_LibelleRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table LIEUX.LIBELLE</comment>
+  </data>
+  <data name="lieu_ListTitle" xml:space="preserve">
+    <value>Gestion des Salles de Réunions</value>
+  </data>
+  <data name="lieu_select" xml:space="preserve">
+    <value>Sélectionner salle ou espace de cérémonies</value>
+  </data>
+  <data name="lieu_TypeLieu" xml:space="preserve">
+    <value>Type de lieu</value>
+    <comment>Table LIEUX.TYPE_LIEU</comment>
+  </data>
+  <data name="lieu_TypeLieuLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 1 caractères !</value>
+    <comment>Table LIEUX.TYPE_LIEU</comment>
+  </data>
+  <data name="lieu_TypeLieuRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table LIEUX.TYPE_LIEU</comment>
+  </data>
+  <data name="link_navbar_chngpass" xml:space="preserve">
+    <value>Gérer votre compte</value>
+  </data>
+  <data name="link_navbar_cnx" xml:space="preserve">
+    <value>Se connecter</value>
+  </data>
+  <data name="link_navbar_dcnx" xml:space="preserve">
+    <value>Se déconnecter</value>
+  </data>
+  <data name="login_form_Title" xml:space="preserve">
+    <value>Formulaire d'identification</value>
+  </data>
+  <data name="login_libelle_checkbox" xml:space="preserve">
+    <value>Mémoriser le mot de passe ?</value>
+  </data>
+  <data name="login_Libelle_login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="login_Libelle_motdepass" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="login_libelle_submit" xml:space="preserve">
+    <value>Connexion</value>
+  </data>
+  <data name="menu_batiment" xml:space="preserve">
+    <value>Bâtiments</value>
+  </data>
+  <data name="menu_BUREAU" xml:space="preserve">
+    <value>Bureau</value>
+  </data>
+  <data name="menu_convocation" xml:space="preserve">
+    <value>Convocations</value>
+  </data>
+  <data name="menu_espaces" xml:space="preserve">
+    <value>Espaces de cérémonies</value>
+  </data>
+  <data name="menu_operation" xml:space="preserve">
+    <value>Opérations</value>
+  </data>
+  <data name="menu_param" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="menu_participant" xml:space="preserve">
+    <value>Participants</value>
+  </data>
+  <data name="menu_pt_affich" xml:space="preserve">
+    <value>Points d'affichage</value>
+  </data>
+  <data name="menu_reserv" xml:space="preserve">
+    <value>Calendrier réservations</value>
+  </data>
+  <data name="menu_reserv_export" xml:space="preserve">
+    <value>Gestion des réservations</value>
+  </data>
+  <data name="menu_salles" xml:space="preserve">
+    <value>Salle de réunion</value>
+  </data>
+  <data name="menu_service" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="menu_Themes" xml:space="preserve">
+    <value>Thèmes</value>
+  </data>
+  <data name="menu_users" xml:space="preserve">
+    <value>Utilisateurs</value>
+  </data>
+  <data name="Page_of" xml:space="preserve">
+    <value>sur</value>
+  </data>
+  <data name="part_CreateTitle" xml:space="preserve">
+    <value>Nouveau Participant</value>
+  </data>
+  <data name="part_DeleteTitle" xml:space="preserve">
+    <value>Supprimer Participant</value>
+  </data>
+  <data name="part_DetailTitle" xml:space="preserve">
+    <value>Détails Participant</value>
+  </data>
+  <data name="part_EditTitle" xml:space="preserve">
+    <value>Modifier Participant</value>
+  </data>
+  <data name="part_Email" xml:space="preserve">
+    <value>Email</value>
+    <comment>Table PARTICIPANT.EMAIL</comment>
+  </data>
+  <data name="part_EmailDataType" xml:space="preserve">
+    <value>Veuillez entrer un mail valide SVP !</value>
+    <comment>Table PARTICIPANT.ID_PARTICIPANT</comment>
+  </data>
+  <data name="part_EmailLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table PARTICIPANT.EMAIL</comment>
+  </data>
+  <data name="part_Fonction" xml:space="preserve">
+    <value>Fonction</value>
+    <comment>Table PARTICIPANT.FONCTION</comment>
+  </data>
+  <data name="part_FonctionLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table PARTICIPANT.FONCTION</comment>
+  </data>
+  <data name="part_IdParticipant" xml:space="preserve">
+    <value>ID_PARTICIPANT</value>
+    <comment>Table PARTICIPANT.ID_PARTICIPANT</comment>
+  </data>
+  <data name="part_IdParticipantDataType" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre !</value>
+    <comment>Table PARTICIPANT.ID_PARTICIPANT</comment>
+  </data>
+  <data name="part_IdParticipantRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table PARTICIPANT.ID_PARTICIPANT</comment>
+  </data>
+  <data name="part_ListTitle" xml:space="preserve">
+    <value>Gestion des Participants</value>
+  </data>
+  <data name="part_Nom" xml:space="preserve">
+    <value>Noms</value>
+    <comment>Table PARTICIPANT.NOM</comment>
+  </data>
+  <data name="part_NomLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table PARTICIPANT.NOM</comment>
+  </data>
+  <data name="part_NomRequired" xml:space="preserve">
+    <value>Le champ "Noms" est requis!</value>
+    <comment>Table PARTICIPANT.NOM</comment>
+  </data>
+  <data name="part_Prenom" xml:space="preserve">
+    <value>Prenoms</value>
+    <comment>Table PARTICIPANT.PRENOM</comment>
+  </data>
+  <data name="part_PrenomLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table PARTICIPANT.PRENOM</comment>
+  </data>
+  <data name="part_Telephone" xml:space="preserve">
+    <value>Telephone</value>
+    <comment>Table PARTICIPANT.TELEPHONE</comment>
+  </data>
+  <data name="part_TelephoneLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table PARTICIPANT.TELEPHONE</comment>
+  </data>
+  <data name="posi_centre" xml:space="preserve">
+    <value>Centre</value>
+  </data>
+  <data name="posi_est" xml:space="preserve">
+    <value>Est</value>
+  </data>
+  <data name="posi_ne" xml:space="preserve">
+    <value>Nord - Est</value>
+  </data>
+  <data name="posi_no" xml:space="preserve">
+    <value>Nord - Ouest</value>
+  </data>
+  <data name="posi_nord" xml:space="preserve">
+    <value>Nord</value>
+  </data>
+  <data name="posi_ouest" xml:space="preserve">
+    <value>Ouest</value>
+  </data>
+  <data name="posi_se" xml:space="preserve">
+    <value>Sud - Est</value>
+  </data>
+  <data name="posi_select" xml:space="preserve">
+    <value>Sélectionnez une position...</value>
+  </data>
+  <data name="posi_so" xml:space="preserve">
+    <value>Sud - Ouest</value>
+  </data>
+  <data name="posi_sud" xml:space="preserve">
+    <value>Sud</value>
+  </data>
+  <data name="PropertyValueInvalid" xml:space="preserve">
+    <value>La valeur '{0}' n'est pas valide pour {1}.</value>
+  </data>
+  <data name="PropertyValueRequired" xml:space="preserve">
+    <value>Une valeur est requise.</value>
+  </data>
+  <data name="pt_a_CreateTitle" xml:space="preserve">
+    <value>Nouveau Point d'affichage</value>
+  </data>
+  <data name="pt_a_DeleteTitle" xml:space="preserve">
+    <value>Supprimer Point d'affichage</value>
+  </data>
+  <data name="pt_a_Details" xml:space="preserve">
+    <value>Observations</value>
+    <comment>Table PT_AFFICHAGE.DETAILS</comment>
+  </data>
+  <data name="pt_a_DetailsLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 4000 caractères !</value>
+    <comment>Table PT_AFFICHAGE.DETAILS</comment>
+  </data>
+  <data name="pt_a_DetailTitle" xml:space="preserve">
+    <value>Détails Point d'affichage</value>
+  </data>
+  <data name="pt_a_EditTitle" xml:space="preserve">
+    <value>Modifier Point d'affichage</value>
+  </data>
+  <data name="pt_a_Emplacement" xml:space="preserve">
+    <value>Emplacement</value>
+    <comment>Table PT_AFFICHAGE.EMPLACEMENT</comment>
+  </data>
+  <data name="pt_a_EmplacementLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 4000 caractères !</value>
+    <comment>Table PT_AFFICHAGE.EMPLACEMENT</comment>
+  </data>
+  <data name="pt_a_EmplacementRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table PT_AFFICHAGE.EMPLACEMENT</comment>
+  </data>
+  <data name="pt_a_IdBat" xml:space="preserve">
+    <value>Bâtiment</value>
+    <comment>Table PT_AFFICHAGE.ID_BAT</comment>
+  </data>
+  <data name="pt_a_IdBatDataType" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre !</value>
+    <comment>Table PT_AFFICHAGE.ID_BAT</comment>
+  </data>
+  <data name="pt_a_IdBatRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table PT_AFFICHAGE.ID_BAT</comment>
+  </data>
+  <data name="pt_a_Libelle" xml:space="preserve">
+    <value>Désignation</value>
+    <comment>Table PT_AFFICHAGE.LIBELLE</comment>
+  </data>
+  <data name="pt_a_LibelleLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table PT_AFFICHAGE.LIBELLE</comment>
+  </data>
+  <data name="pt_a_LibelleRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table PT_AFFICHAGE.LIBELLE</comment>
+  </data>
+  <data name="pt_a_ListTitle" xml:space="preserve">
+    <value>Gestion des Points d'affichage</value>
+  </data>
+  <data name="rese_CreateTitle" xml:space="preserve">
+    <value>Nouvelle Réservation</value>
+  </data>
+  <data name="rese_DateDebut" xml:space="preserve">
+    <value>Date début</value>
+    <comment>Table RESERVATION.DATE_DEBUT</comment>
+  </data>
+  <data name="rese_DateDebutDataType" xml:space="preserve">
+    <value>Le champ {0} doit être une date !</value>
+    <comment>Table RESERVATION.DATE_DEBUT</comment>
+  </data>
+  <data name="rese_DateDebutRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table RESERVATION.DATE_DEBUT</comment>
+  </data>
+  <data name="rese_DateFin" xml:space="preserve">
+    <value>Date fin</value>
+    <comment>Table RESERVATION.DATE_FIN</comment>
+  </data>
+  <data name="rese_DateFinDataType" xml:space="preserve">
+    <value>Le champ {0} doit être une date !</value>
+    <comment>Table RESERVATION.DATE_FIN</comment>
+  </data>
+  <data name="rese_DateFinRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table RESERVATION.DATE_FIN</comment>
+  </data>
+  <data name="rese_DeleteTitle" xml:space="preserve">
+    <value>Supprimer Reservation</value>
+  </data>
+  <data name="rese_Details" xml:space="preserve">
+    <value>Contenu Convocation</value>
+    <comment>Table RESERVATION.DETAILS</comment>
+  </data>
+  <data name="rese_DetailsLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 4000 caractères !</value>
+    <comment>Table RESERVATION.DETAILS</comment>
+  </data>
+  <data name="rese_DetailTitle" xml:space="preserve">
+    <value>Détails Reservation</value>
+  </data>
+  <data name="rese_EditTitle" xml:space="preserve">
+    <value>Modifier Reservation</value>
+  </data>
+  <data name="rese_HeureDebut" xml:space="preserve">
+    <value>Heure début</value>
+    <comment>Table RESERVATION.HEURE_DEBUT</comment>
+  </data>
+  <data name="rese_HeureDebutDataType" xml:space="preserve">
+    <value>Le champ {0} doit être une date !</value>
+    <comment>Table RESERVATION.HEURE_DEBUT</comment>
+  </data>
+  <data name="rese_HeureDebutRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table RESERVATION.HEURE_DEBUT</comment>
+  </data>
+  <data name="rese_HeureFin" xml:space="preserve">
+    <value>Heure fin</value>
+    <comment>Table RESERVATION.HEURE_FIN</comment>
+  </data>
+  <data name="rese_HeureFinDataType" xml:space="preserve">
+    <value>Le champ {0} doit être une date !</value>
+    <comment>Table RESERVATION.HEURE_FIN</comment>
+  </data>
+  <data name="rese_HeureFinRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table RESERVATION.HEURE_FIN</comment>
+  </data>
+  <data name="rese_IdLieu" xml:space="preserve">
+    <value>Emplacement</value>
+    <comment>Table RESERVATION.ID_LIEU</comment>
+  </data>
+  <data name="rese_IdLieuRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table RESERVATION.ID_LIEU</comment>
+  </data>
+  <data name="rese_Libelle" xml:space="preserve">
+    <value>N° Tél</value>
+    <comment>Table RESERVATION.LIBELLE</comment>
+  </data>
+  <data name="rese_LibelleLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table RESERVATION.LIBELLE</comment>
+  </data>
+  <data name="rese_LibelleRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table RESERVATION.LIBELLE</comment>
+  </data>
+  <data name="rese_ListTitle" xml:space="preserve">
+    <value>Gestion des Reservations</value>
+  </data>
+  <data name="rese_Motif" xml:space="preserve">
+    <value>Objet</value>
+    <comment>Table RESERVATION.MOTIF</comment>
+  </data>
+  <data name="rese_MotifLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 4000 caractères !</value>
+    <comment>Table RESERVATION.MOTIF</comment>
+  </data>
+  <data name="rese_MotifRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table RESERVATION.MOTIF</comment>
+  </data>
+  <data name="rese_NbrePers" xml:space="preserve">
+    <value>Nbre participants</value>
+    <comment>Table RESERVATION.NBRE_PERS</comment>
+  </data>
+  <data name="rese_NbrePersDataType" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre !</value>
+    <comment>Table RESERVATION.NBRE_PERS</comment>
+  </data>
+  <data name="rese_NbrePersRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table RESERVATION.NBRE_PERS</comment>
+  </data>
+  <data name="rese_president" xml:space="preserve">
+    <value>Président Séance</value>
+  </data>
+  <data name="rese_PresidentLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 250 caractères !</value>
+  </data>
+  <data name="rese_select" xml:space="preserve">
+    <value>Sélectionner une réservation</value>
+  </data>
+  <data name="rese_select_theme" xml:space="preserve">
+    <value>&lt;&lt; Veuillez sélectionner un thème principal  &gt;&gt;</value>
+  </data>
+  <data name="rese_themeId" xml:space="preserve">
+    <value>Thème principal</value>
+  </data>
+  <data name="rese_themeIdRequired" xml:space="preserve">
+    <value>Veuillez spéfifier un thème principal pour cette réservation</value>
+  </data>
+  <data name="rese_Userid" xml:space="preserve">
+    <value>UserId</value>
+    <comment>Table RESERVATION.UserId</comment>
+  </data>
+  <data name="rese_UseridRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table RESERVATION.UserId</comment>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="serv_CreateTitle" xml:space="preserve">
+    <value>Nouveau Service</value>
+  </data>
+  <data name="serv_DeleteTitle" xml:space="preserve">
+    <value>Supprimer Service</value>
+  </data>
+  <data name="serv_Details" xml:space="preserve">
+    <value>Observations</value>
+    <comment>Table SERVICE.DETAILS</comment>
+  </data>
+  <data name="serv_DetailsLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 4000 caractères !</value>
+    <comment>Table SERVICE.DETAILS</comment>
+  </data>
+  <data name="serv_DetailTitle" xml:space="preserve">
+    <value>Détails Service</value>
+  </data>
+  <data name="serv_EditTitle" xml:space="preserve">
+    <value>Modifier Service</value>
+  </data>
+  <data name="serv_IdBat" xml:space="preserve">
+    <value>Bâtiment</value>
+    <comment>Table SERVICE.ID_BAT</comment>
+  </data>
+  <data name="serv_IdBatDataType" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre !</value>
+    <comment>Table SERVICE.ID_BAT</comment>
+  </data>
+  <data name="serv_IdBatRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table SERVICE.ID_BAT</comment>
+  </data>
+  <data name="serv_Libelle" xml:space="preserve">
+    <value>Désignation</value>
+    <comment>Table SERVICE.LIBELLE</comment>
+  </data>
+  <data name="serv_LibelleLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table SERVICE.LIBELLE</comment>
+  </data>
+  <data name="serv_LibelleRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table SERVICE.LIBELLE</comment>
+  </data>
+  <data name="serv_ListTitle" xml:space="preserve">
+    <value>Gestion des Services</value>
+  </data>
+  <data name="theme_CreateTitle" xml:space="preserve">
+    <value>Nouveau Thème</value>
+  </data>
+  <data name="theme_DateCreation" xml:space="preserve">
+    <value>DateCreation</value>
+    <comment>Table Themes.DateCreation</comment>
+  </data>
+  <data name="theme_DateCreationDataType" xml:space="preserve">
+    <value>Le champ {0} doit être une date !</value>
+    <comment>Table Themes.DateCreation</comment>
+  </data>
+  <data name="theme_DateCreationRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table Themes.DateCreation</comment>
+  </data>
+  <data name="theme_DeleteTitle" xml:space="preserve">
+    <value>Supprimer Thème</value>
+  </data>
+  <data name="theme_DetailTitle" xml:space="preserve">
+    <value>Détails Thème</value>
+  </data>
+  <data name="theme_EditTitle" xml:space="preserve">
+    <value>Modifier Thème</value>
+  </data>
+  <data name="theme_Id" xml:space="preserve">
+    <value>Id</value>
+    <comment>Table Themes.Id</comment>
+  </data>
+  <data name="theme_IdDataType" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre !</value>
+    <comment>Table Themes.Id</comment>
+  </data>
+  <data name="theme_IdRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table Themes.Id</comment>
+  </data>
+  <data name="theme_Libelle" xml:space="preserve">
+    <value>Libelle</value>
+    <comment>Table Themes.Libelle</comment>
+  </data>
+  <data name="theme_LibelleLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 250 caractères !</value>
+    <comment>Table Themes.Libelle</comment>
+  </data>
+  <data name="theme_LibelleRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table Themes.Libelle</comment>
+  </data>
+  <data name="theme_ListTitle" xml:space="preserve">
+    <value>Gestion des Thèmes</value>
+  </data>
+  <data name="validate" xml:space="preserve">
+    <value>Valider</value>
+  </data>
+  <data name="rese_select_lieu" xml:space="preserve">
+    <value>&lt;&lt; Veuillez sélectionner un emplacement &gt;&gt;</value>
+  </data>
+  <data name="rese_annulation" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="rese_periode" xml:space="preserve">
+    <value>Période</value>
+  </data>
+  <data name="rese_report" xml:space="preserve">
+    <value>Reporter</value>
+  </data>
+  <data name="rese_reportTitle" xml:space="preserve">
+    <value>Reporter Réservation</value>
+  </data>
+  <data name="rese_your_are_not_owner" xml:space="preserve">
+    <value>Vous n'êtes pas l'auteur de cette réservation !</value>
+  </data>
+  <data name="stat_select_presi" xml:space="preserve">
+    <value>&lt;&lt; Président de séance &gt;&gt;</value>
+  </data>
+  <data name="stat_select_salle" xml:space="preserve">
+    <value>&lt;&lt; Emplacement &gt;&gt;</value>
+  </data>
+  <data name="stat_select_theme" xml:space="preserve">
+    <value>&lt;&lt; Thème &gt;&gt;</value>
+  </data>
+  <data name="rese_cs_canceled" xml:space="preserve">
+    <value>Annulé</value>
+    <comment>Added</comment>
+  </data>
+  <data name="rese_cs_canceled_pending" xml:space="preserve">
+    <value>Annulation en cours</value>
+    <comment>Added</comment>
+  </data>
+  <data name="rese_cs_encours" xml:space="preserve">
+    <value>En cours</value>
+    <comment>Added</comment>
+  </data>
+  <data name="rese_cs_ended" xml:space="preserve">
+    <value>Terminé</value>
+    <comment>Added</comment>
+  </data>
+  <data name="rese_cs_enretard" xml:space="preserve">
+    <value>En Retard</value>
+    <comment>Added</comment>
+  </data>
+  <data name="rese_cs_initial" xml:space="preserve">
+    <value>Initial</value>
+    <comment>Added</comment>
+  </data>
+  <data name="rese_cs_reported" xml:space="preserve">
+    <value>Reporté</value>
+    <comment>Added</comment>
+  </data>
+  <data name="rese_cs_reportedpending" xml:space="preserve">
+    <value>Report en cours</value>
+    <comment>Added</comment>
+  </data>
+  <data name="rese_CurrentState" xml:space="preserve">
+    <value>Statut</value>
+    <comment>Added</comment>
+  </data>
+  <data name="rese_Plage" xml:space="preserve">
+    <value>Heure début/Fin</value>
+    <comment>Added</comment>
+  </data>
+  <data name="menu_TexteDefilants" xml:space="preserve">
+    <value>Messages Défilants</value>
+  </data>
+  <data name="txtd_affi_select" xml:space="preserve">
+    <value>&lt;&lt; Veuillez sélectionner AFFICHAGE &gt;&gt;</value>
+  </data>
+  <data name="txtd_CreateTitle" xml:space="preserve">
+    <value>Nouveau Texte Défilant</value>
+  </data>
+  <data name="txtd_DateCreation" xml:space="preserve">
+    <value>DateCreation</value>
+    <comment>Table TexteDefilants.DateCreation</comment>
+  </data>
+  <data name="txtd_DateCreationDataType" xml:space="preserve">
+    <value>Le champ {0} doit être une date !</value>
+    <comment>Table TexteDefilants.DateCreation</comment>
+  </data>
+  <data name="txtd_DateCreationRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table TexteDefilants.DateCreation</comment>
+  </data>
+  <data name="txtd_DateDebut" xml:space="preserve">
+    <value>Date début</value>
+    <comment>Table TexteDefilants.DateDebut</comment>
+  </data>
+  <data name="txtd_DateDebutDataType" xml:space="preserve">
+    <value>Le champ {0} doit être une date !</value>
+    <comment>Table TexteDefilants.DateDebut</comment>
+  </data>
+  <data name="txtd_DateFin" xml:space="preserve">
+    <value>Date fin</value>
+    <comment>Table TexteDefilants.DateFin</comment>
+  </data>
+  <data name="txtd_DateFinDataType" xml:space="preserve">
+    <value>Le champ {0} doit être une date !</value>
+    <comment>Table TexteDefilants.DateFin</comment>
+  </data>
+  <data name="txtd_DeleteTitle" xml:space="preserve">
+    <value>Supprimer Texte Défilant</value>
+  </data>
+  <data name="txtd_DetailTitle" xml:space="preserve">
+    <value>Détails Texte Défilant</value>
+  </data>
+  <data name="txtd_EditTitle" xml:space="preserve">
+    <value>Modifier Texte Défilant</value>
+  </data>
+  <data name="txtd_EstPublie" xml:space="preserve">
+    <value>Est publié</value>
+    <comment>Table TexteDefilants.EstPublie</comment>
+  </data>
+  <data name="txtd_EstPublieRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table TexteDefilants.EstPublie</comment>
+  </data>
+  <data name="txtd_Id" xml:space="preserve">
+    <value>Id</value>
+    <comment>Table TexteDefilants.Id</comment>
+  </data>
+  <data name="txtd_IdDataType" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre !</value>
+    <comment>Table TexteDefilants.Id</comment>
+  </data>
+  <data name="txtd_IdRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table TexteDefilants.Id</comment>
+  </data>
+  <data name="txtd_ListTitle" xml:space="preserve">
+    <value>Gestion des Textes Défilant</value>
+  </data>
+  <data name="txtd_Message" xml:space="preserve">
+    <value>Message</value>
+    <comment>Table TexteDefilants.Message</comment>
+  </data>
+  <data name="txtd_MessageRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table TexteDefilants.Message</comment>
+  </data>
+  <data name="txtd_PointAffichageId" xml:space="preserve">
+    <value>Point d'affichage</value>
+    <comment>Table TexteDefilants.PointAffichageId</comment>
+  </data>
+  <data name="txtd_PointAffichageIdDataType" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre !</value>
+    <comment>Table TexteDefilants.PointAffichageId</comment>
+  </data>
+  <data name="txtd_PointAffichageIdRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table TexteDefilants.PointAffichageId</comment>
+  </data>
+  <data name="txtd_UserId" xml:space="preserve">
+    <value>UserId</value>
+    <comment>Table TexteDefilants.UserId</comment>
+  </data>
+  <data name="txtd_UserIdLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 128 caractères !</value>
+    <comment>Table TexteDefilants.UserId</comment>
+  </data>
+  <data name="txtd_UserIdRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table TexteDefilants.UserId</comment>
+  </data>
+  <data name="user_CreateTitle" xml:space="preserve">
+    <value>Nouvel Utilisateur</value>
+  </data>
+  <data name="user_DATECREATION" xml:space="preserve">
+    <value>DATE_CREATION</value>
+    <comment>Table Utilisateur.DATE_CREATION</comment>
+  </data>
+  <data name="user_DATECREATIONDataType" xml:space="preserve">
+    <value>Le champ {0} doit être une date !</value>
+    <comment>Table Utilisateur.DATE_CREATION</comment>
+  </data>
+  <data name="user_DeleteTitle" xml:space="preserve">
+    <value>Supprimer Utilisateur</value>
+  </data>
+  <data name="user_DetailTitle" xml:space="preserve">
+    <value>Détails Utilisateur</value>
+  </data>
+  <data name="user_EditTitle" xml:space="preserve">
+    <value>Modifier Utilisateur</value>
+  </data>
+  <data name="user_EMAIL" xml:space="preserve">
+    <value>Email</value>
+    <comment>Table Utilisateur.EMAIL</comment>
+  </data>
+  <data name="user_EMAILLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table Utilisateur.EMAIL</comment>
+  </data>
+  <data name="user_Id" xml:space="preserve">
+    <value>Id</value>
+    <comment>Table Utilisateur.Id</comment>
+  </data>
+  <data name="user_IdLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 128 caractères !</value>
+    <comment>Table Utilisateur.Id</comment>
+  </data>
+  <data name="user_IdRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table Utilisateur.Id</comment>
+  </data>
+  <data name="user_IDSERVICE" xml:space="preserve">
+    <value>Service</value>
+    <comment>Table Utilisateur.ID_SERVICE</comment>
+  </data>
+  <data name="user_IDSERVICEDataType" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre !</value>
+    <comment>Table Utilisateur.ID_SERVICE</comment>
+  </data>
+  <data name="user_ListTitle" xml:space="preserve">
+    <value>Gestion des Utilisateurs</value>
+  </data>
+  <data name="user_NOMS" xml:space="preserve">
+    <value>Noms</value>
+    <comment>Table Utilisateur.NOMS</comment>
+  </data>
+  <data name="user_NOMSLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table Utilisateur.NOMS</comment>
+  </data>
+  <data name="user_PasswordHash" xml:space="preserve">
+    <value>PasswordHash</value>
+    <comment>Table Utilisateur.PasswordHash</comment>
+  </data>
+  <data name="user_PRENOMS" xml:space="preserve">
+    <value>Prénoms</value>
+    <comment>Table Utilisateur.PRENOMS</comment>
+  </data>
+  <data name="user_PRENOMSLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table Utilisateur.PRENOMS</comment>
+  </data>
+  <data name="user_SecurityStamp" xml:space="preserve">
+    <value>SecurityStamp</value>
+    <comment>Table Utilisateur.SecurityStamp</comment>
+  </data>
+  <data name="user_serv_select" xml:space="preserve">
+    <value>&lt;&lt; Veuillez sélectionner un SERVICE &gt;&gt;</value>
+  </data>
+  <data name="user_TEL" xml:space="preserve">
+    <value>Tél</value>
+    <comment>Table Utilisateur.TEL</comment>
+  </data>
+  <data name="user_TELLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table Utilisateur.TEL</comment>
+  </data>
+  <data name="user_UserName" xml:space="preserve">
+    <value>Login</value>
+    <comment>Table Utilisateur.UserName</comment>
+  </data>
+  <data name="app_add" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="app_associate" xml:space="preserve">
+    <value>Associer</value>
+  </data>
+  <data name="app_back_to_list" xml:space="preserve">
+    <value>Retour à la liste</value>
+  </data>
+  <data name="app_cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="app_confirm_delete" xml:space="preserve">
+    <value>Etes-vous sûr de vouloir supprimer cet enregistrement ?</value>
+  </data>
+  <data name="app_copyrigth1" xml:space="preserve">
+    <value>Team Information System</value>
+  </data>
+  <data name="app_create" xml:space="preserve">
+    <value>Nouveau</value>
+  </data>
+  <data name="app_delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="app_details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="app_edit" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="app_FieldMinLength" xml:space="preserve">
+    <value>La chaîne {0} doit comporter au moins {2} caractères.</value>
+  </data>
+  <data name="app_FieldMustBeDate" xml:space="preserve">
+    <value>Le champ {0} doit être une date.</value>
+  </data>
+  <data name="app_FieldMustBeNumeric" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre.</value>
+  </data>
+  <data name="app_FieldRequired" xml:space="preserve">
+    <value>Le champ {0} est requis.</value>
+  </data>
+  <data name="app_find" xml:space="preserve">
+    <value>Rechercher</value>
+  </data>
+  <data name="app_find_criteria" xml:space="preserve">
+    <value>Critère de recherche :</value>
+  </data>
+  <data name="app_home" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="app_moins" xml:space="preserve">
+    <value>Moins</value>
+  </data>
+  <data name="app_name1" xml:space="preserve">
+    <value>Gestion des émissions</value>
+  </data>
+  <data name="app_plus" xml:space="preserve">
+    <value>Plus</value>
+  </data>
+  <data name="app_PwdCompareError" xml:space="preserve">
+    <value>Le mot de passe et le mot de passe de confirmation ne correspondent pas.</value>
+  </data>
+  <data name="app_role_for_user" xml:space="preserve">
+    <value>Rôles attribués à :</value>
+  </data>
+  <data name="app_role_management" xml:space="preserve">
+    <value>Rôles utilisateurs</value>
+  </data>
+  <data name="app_save" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="app_select_session" xml:space="preserve">
+    <value>Choix de la session</value>
+  </data>
+  <data name="app_user_confirm_pwd" xml:space="preserve">
+    <value>Confirmer le mot de passe</value>
+  </data>
+  <data name="app_user_pwd" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="menu_PlanningSettings" xml:space="preserve">
+    <value>Paramètres Planning</value>
+  </data>
+  <data name="ppla_Afficher" xml:space="preserve">
+    <value>Afficher</value>
+    <comment>Table PlanningSettings.Afficher</comment>
+  </data>
+  <data name="ppla_AfficherRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table PlanningSettings.Afficher</comment>
+  </data>
+  <data name="ppla_affi_select" xml:space="preserve">
+    <value>&lt;&lt; Veuillez sélectionner un point d'affichage &gt;&gt;</value>
+  </data>
+  <data name="ppla_Animation" xml:space="preserve">
+    <value>Animation</value>
+    <comment>Table PlanningSettings.Animation</comment>
+  </data>
+  <data name="ppla_AnimationLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table PlanningSettings.Animation</comment>
+  </data>
+  <data name="ppla_AnimationTime" xml:space="preserve">
+    <value>AnimationTime</value>
+    <comment>Table PlanningSettings.AnimationTime</comment>
+  </data>
+  <data name="ppla_AnimationTimeDataType" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre !</value>
+    <comment>Table PlanningSettings.AnimationTime</comment>
+  </data>
+  <data name="ppla_AnimationTimeRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table PlanningSettings.AnimationTime</comment>
+  </data>
+  <data name="ppla_BackgoundImage" xml:space="preserve">
+    <value>BackgoundImage</value>
+    <comment>Table PlanningSettings.BackgoundImage</comment>
+  </data>
+  <data name="ppla_BackgoundImageLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table PlanningSettings.BackgoundImage</comment>
+  </data>
+  <data name="ppla_CreateTitle" xml:space="preserve">
+    <value>Nouveau Paramètre Planning</value>
+  </data>
+  <data name="ppla_DateCreation" xml:space="preserve">
+    <value>DateCreation</value>
+    <comment>Table PlanningSettings.DateCreation</comment>
+  </data>
+  <data name="ppla_DateCreationDataType" xml:space="preserve">
+    <value>Le champ {0} doit être une date !</value>
+    <comment>Table PlanningSettings.DateCreation</comment>
+  </data>
+  <data name="ppla_DateCreationRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table PlanningSettings.DateCreation</comment>
+  </data>
+  <data name="ppla_DeleteTitle" xml:space="preserve">
+    <value>Supprimer Paramètre Planning</value>
+  </data>
+  <data name="ppla_DetailTitle" xml:space="preserve">
+    <value>Détails Paramètre Planning</value>
+  </data>
+  <data name="ppla_DivClassName" xml:space="preserve">
+    <value>DivClassName</value>
+    <comment>Table PlanningSettings.DivClassName</comment>
+  </data>
+  <data name="ppla_DivClassNameLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table PlanningSettings.DivClassName</comment>
+  </data>
+  <data name="ppla_EditTitle" xml:space="preserve">
+    <value>Modifier Paramètre Planning</value>
+  </data>
+  <data name="ppla_Id" xml:space="preserve">
+    <value>Id</value>
+    <comment>Table PlanningSettings.Id</comment>
+  </data>
+  <data name="ppla_IdDataType" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre !</value>
+    <comment>Table PlanningSettings.Id</comment>
+  </data>
+  <data name="ppla_IdRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table PlanningSettings.Id</comment>
+  </data>
+  <data name="ppla_LibellePeriode" xml:space="preserve">
+    <value>LibellePeriode</value>
+    <comment>Table PlanningSettings.LibellePeriode</comment>
+  </data>
+  <data name="ppla_LibellePeriodeLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table PlanningSettings.LibellePeriode</comment>
+  </data>
+  <data name="ppla_LibelleVue" xml:space="preserve">
+    <value>LibelleVue</value>
+    <comment>Table PlanningSettings.LibelleVue</comment>
+  </data>
+  <data name="ppla_LibelleVueLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 150 caractères !</value>
+    <comment>Table PlanningSettings.LibelleVue</comment>
+  </data>
+  <data name="ppla_LieuId" xml:space="preserve">
+    <value>Lieu</value>
+    <comment>Table PlanningSettings.LieuId</comment>
+  </data>
+  <data name="ppla_LieuIdDataType" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre !</value>
+    <comment>Table PlanningSettings.LieuId</comment>
+  </data>
+  <data name="ppla_LieuIdRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table PlanningSettings.LieuId</comment>
+  </data>
+  <data name="ppla_lieu_select" xml:space="preserve">
+    <value>&lt;&lt; Veuillez sélectionner un lieu &gt;&gt;</value>
+  </data>
+  <data name="ppla_ListTitle" xml:space="preserve">
+    <value>Gestion des Paramètres Planning</value>
+  </data>
+  <data name="ppla_MaxCharsPage" xml:space="preserve">
+    <value>MaxCharsPage</value>
+    <comment>Table PlanningSettings.MaxCharsPage</comment>
+  </data>
+  <data name="ppla_MaxCharsPageDataType" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre !</value>
+    <comment>Table PlanningSettings.MaxCharsPage</comment>
+  </data>
+  <data name="ppla_MaxCharsPageRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table PlanningSettings.MaxCharsPage</comment>
+  </data>
+  <data name="ppla_MaxPageElements" xml:space="preserve">
+    <value>MaxPageElements</value>
+    <comment>Table PlanningSettings.MaxPageElements</comment>
+  </data>
+  <data name="ppla_MaxPageElementsDataType" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre !</value>
+    <comment>Table PlanningSettings.MaxPageElements</comment>
+  </data>
+  <data name="ppla_MaxPageElementsRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table PlanningSettings.MaxPageElements</comment>
+  </data>
+  <data name="ppla_PointAffichageId" xml:space="preserve">
+    <value>Point d'affichage</value>
+    <comment>Table PlanningSettings.PointAffichageId</comment>
+  </data>
+  <data name="ppla_PointAffichageIdDataType" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre !</value>
+    <comment>Table PlanningSettings.PointAffichageId</comment>
+  </data>
+  <data name="ppla_PointAffichageIdRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table PlanningSettings.PointAffichageId</comment>
+  </data>
+  <data name="ppla_UserId" xml:space="preserve">
+    <value>UserId</value>
+    <comment>Table PlanningSettings.UserId</comment>
+  </data>
+  <data name="ppla_UserIdLong" xml:space="preserve">
+    <value>Le champ {0} ne peut dépasser 128 caractères !</value>
+    <comment>Table PlanningSettings.UserId</comment>
+  </data>
+  <data name="ppla_UserIdRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table PlanningSettings.UserId</comment>
+  </data>
+  <data name="ppla_ViewShowTime" xml:space="preserve">
+    <value>ViewShowTime</value>
+    <comment>Table PlanningSettings.ViewShowTime</comment>
+  </data>
+  <data name="ppla_ViewShowTimeDataType" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre !</value>
+    <comment>Table PlanningSettings.ViewShowTime</comment>
+  </data>
+  <data name="ppla_ViewShowTimeRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table PlanningSettings.ViewShowTime</comment>
+  </data>
+  <data name="ppla_ViewType" xml:space="preserve">
+    <value>ViewType</value>
+    <comment>Table PlanningSettings.ViewType</comment>
+  </data>
+  <data name="ppla_ViewTypeDataType" xml:space="preserve">
+    <value>Le champ {0} doit être un nombre !</value>
+    <comment>Table PlanningSettings.ViewType</comment>
+  </data>
+  <data name="ppla_ViewTypeRequired" xml:space="preserve">
+    <value>Le champ {0} est requis!</value>
+    <comment>Table PlanningSettings.ViewType</comment>
+  </data>
+  <data name="rese_collision" xml:space="preserve">
+    <value>Conflit horaire</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Désactiver</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>Activer</value>
+  </data>
+</root>

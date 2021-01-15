@@ -1,0 +1,28 @@
+txtd_ListTitle	Gestion des Textes Défilant
+txtd_CreateTitle	Nouveau Texte Défilant
+txtd_DetailTitle	Détails Texte Défilant
+txtd_EditTitle	Modifier Texte Défilant
+txtd_DeleteTitle	Supprimer Texte Défilant
+menu_TexteDefilants	Texte Défilant
+txtd_Id	Id	Table TexteDefilants.Id
+txtd_IdRequired	Le champ {0} est requis!	Table TexteDefilants.Id
+txtd_IdDataType	Le champ {0} doit être un nombre !	Table TexteDefilants.Id
+txtd_Message	Message	Table TexteDefilants.Message
+txtd_MessageRequired	Le champ {0} est requis!	Table TexteDefilants.Message
+txtd_UserId	UserId	Table TexteDefilants.UserId
+txtd_UserIdRequired	Le champ {0} est requis!	Table TexteDefilants.UserId
+txtd_UserIdLong	Le champ {0} ne peut dépasser 128 caractères !	Table TexteDefilants.UserId
+txtd_DateCreation	DateCreation	Table TexteDefilants.DateCreation
+txtd_DateCreationRequired	Le champ {0} est requis!	Table TexteDefilants.DateCreation
+txtd_DateCreationDataType	Le champ {0} doit être une date !	Table TexteDefilants.DateCreation
+txtd_EstPublie	EstPublie	Table TexteDefilants.EstPublie
+txtd_EstPublieRequired	Le champ {0} est requis!	Table TexteDefilants.EstPublie
+txtd_DateDebut	DateDebut	Table TexteDefilants.DateDebut
+txtd_DateDebutDataType	Le champ {0} doit être une date !	Table TexteDefilants.DateDebut
+txtd_DateFin	DateFin	Table TexteDefilants.DateFin
+txtd_DateFinDataType	Le champ {0} doit être une date !	Table TexteDefilants.DateFin
+txtd_affi_select	<< Veuillez sélectionner AFFICHAGE >>
+txtd_PointAffichageId	PointAffichageId	Table TexteDefilants.PointAffichageId
+txtd_PointAffichageIdRequired	Le champ {0} est requis!	Table TexteDefilants.PointAffichageId
+txtd_PointAffichageIdDataType	Le champ {0} doit être un nombre !	Table TexteDefilants.PointAffichageId
+

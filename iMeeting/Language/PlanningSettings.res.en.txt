@@ -1,0 +1,51 @@
+ppla_ListTitle	PlanningSettingss Management
+ppla_CreateTitle	New PlanningSettings
+ppla_DetailTitle	PlanningSettings details
+ppla_EditTitle	Edit PlanningSettings
+ppla_DeleteTitle	Delete PlanningSettings
+menu_PlanningSettings	PlanningSettings
+ppla_Id	Id	Table PlanningSettings.Id
+ppla_IdRequired	The field {0} is required!	Table PlanningSettings.Id
+ppla_IdDataType	The field {0} must be a number !	Table PlanningSettings.Id
+ppla_affi_select	<< Please select AFFICHAGE >>
+ppla_PointAffichageId	PointAffichageId	Table PlanningSettings.PointAffichageId
+ppla_PointAffichageIdRequired	The field {0} is required!	Table PlanningSettings.PointAffichageId
+ppla_PointAffichageIdDataType	The field {0} must be a number !	Table PlanningSettings.PointAffichageId
+ppla_lieu_select	<< Please select LIEUX >>
+ppla_LieuId	LieuId	Table PlanningSettings.LieuId
+ppla_LieuIdRequired	The field {0} is required!	Table PlanningSettings.LieuId
+ppla_LieuIdDataType	The field {0} must be a number !	Table PlanningSettings.LieuId
+ppla_Afficher	Afficher	Table PlanningSettings.Afficher
+ppla_AfficherRequired	The field {0} is required!	Table PlanningSettings.Afficher
+ppla_ViewType	ViewType	Table PlanningSettings.ViewType
+ppla_ViewTypeRequired	The field {0} is required!	Table PlanningSettings.ViewType
+ppla_ViewTypeDataType	The field {0} must be a number !	Table PlanningSettings.ViewType
+ppla_MaxCharsPage	MaxCharsPage	Table PlanningSettings.MaxCharsPage
+ppla_MaxCharsPageRequired	The field {0} is required!	Table PlanningSettings.MaxCharsPage
+ppla_MaxCharsPageDataType	The field {0} must be a number !	Table PlanningSettings.MaxCharsPage
+ppla_MaxPageElements	MaxPageElements	Table PlanningSettings.MaxPageElements
+ppla_MaxPageElementsRequired	The field {0} is required!	Table PlanningSettings.MaxPageElements
+ppla_MaxPageElementsDataType	The field {0} must be a number !	Table PlanningSettings.MaxPageElements
+ppla_LibelleVue	LibelleVue	Table PlanningSettings.LibelleVue
+ppla_LibelleVueLong	The field {0} can't be more than 150 characters !	Table PlanningSettings.LibelleVue
+ppla_Animation	Animation	Table PlanningSettings.Animation
+ppla_AnimationLong	The field {0} can't be more than 150 characters !	Table PlanningSettings.Animation
+ppla_AnimationTime	AnimationTime	Table PlanningSettings.AnimationTime
+ppla_AnimationTimeRequired	The field {0} is required!	Table PlanningSettings.AnimationTime
+ppla_AnimationTimeDataType	The field {0} must be a number !	Table PlanningSettings.AnimationTime
+ppla_ViewShowTime	ViewShowTime	Table PlanningSettings.ViewShowTime
+ppla_ViewShowTimeRequired	The field {0} is required!	Table PlanningSettings.ViewShowTime
+ppla_ViewShowTimeDataType	The field {0} must be a number !	Table PlanningSettings.ViewShowTime
+ppla_LibellePeriode	LibellePeriode	Table PlanningSettings.LibellePeriode
+ppla_LibellePeriodeLong	The field {0} can't be more than 150 characters !	Table PlanningSettings.LibellePeriode
+ppla_BackgoundImage	BackgoundImage	Table PlanningSettings.BackgoundImage
+ppla_BackgoundImageLong	The field {0} can't be more than 150 characters !	Table PlanningSettings.BackgoundImage
+ppla_DivClassName	DivClassName	Table PlanningSettings.DivClassName
+ppla_DivClassNameLong	The field {0} can't be more than 150 characters !	Table PlanningSettings.DivClassName
+ppla_UserId	UserId	Table PlanningSettings.UserId
+ppla_UserIdRequired	The field {0} is required!	Table PlanningSettings.UserId
+ppla_UserIdLong	The field {0} can't be more than 128 characters !	Table PlanningSettings.UserId
+ppla_DateCreation	DateCreation	Table PlanningSettings.DateCreation
+ppla_DateCreationRequired	The field {0} is required!	Table PlanningSettings.DateCreation
+ppla_DateCreationDataType	The field {0} must be a valid date !	Table PlanningSettings.DateCreation
+

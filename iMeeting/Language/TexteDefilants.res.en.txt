@@ -1,0 +1,28 @@
+txtd_ListTitle	TexteDefilantss Management
+txtd_CreateTitle	New TexteDefilants
+txtd_DetailTitle	TexteDefilants details
+txtd_EditTitle	Edit TexteDefilants
+txtd_DeleteTitle	Delete TexteDefilants
+menu_TexteDefilants	TexteDefilants
+txtd_Id	Id	Table TexteDefilants.Id
+txtd_IdRequired	The field {0} is required!	Table TexteDefilants.Id
+txtd_IdDataType	The field {0} must be a number !	Table TexteDefilants.Id
+txtd_Message	Message	Table TexteDefilants.Message
+txtd_MessageRequired	The field {0} is required!	Table TexteDefilants.Message
+txtd_UserId	UserId	Table TexteDefilants.UserId
+txtd_UserIdRequired	The field {0} is required!	Table TexteDefilants.UserId
+txtd_UserIdLong	The field {0} can't be more than 128 characters !	Table TexteDefilants.UserId
+txtd_DateCreation	DateCreation	Table TexteDefilants.DateCreation
+txtd_DateCreationRequired	The field {0} is required!	Table TexteDefilants.DateCreation
+txtd_DateCreationDataType	The field {0} must be a valid date !	Table TexteDefilants.DateCreation
+txtd_EstPublie	EstPublie	Table TexteDefilants.EstPublie
+txtd_EstPublieRequired	The field {0} is required!	Table TexteDefilants.EstPublie
+txtd_DateDebut	DateDebut	Table TexteDefilants.DateDebut
+txtd_DateDebutDataType	The field {0} must be a valid date !	Table TexteDefilants.DateDebut
+txtd_DateFin	DateFin	Table TexteDefilants.DateFin
+txtd_DateFinDataType	The field {0} must be a valid date !	Table TexteDefilants.DateFin
+txtd_affi_select	<< Please select AFFICHAGE >>
+txtd_PointAffichageId	PointAffichageId	Table TexteDefilants.PointAffichageId
+txtd_PointAffichageIdRequired	The field {0} is required!	Table TexteDefilants.PointAffichageId
+txtd_PointAffichageIdDataType	The field {0} must be a number !	Table TexteDefilants.PointAffichageId
+

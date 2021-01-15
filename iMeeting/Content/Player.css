@@ -1,0 +1,253 @@
+﻿
+.FirstDiv, .StylePageDefault, .StylePageConseil, .theme1, .theme2, .theme3, .theme4, .theme5, .theme6 {
+    display: none;
+    height: 930px;
+    width: 100%;
+    background: linear-gradient(white, #ddd); 
+    border-color: lime;
+}
+
+/* pager */
+.cycle-pager {
+    text-align: center;
+    width: 100%;
+    z-index: 500;
+    /*position: absolute;
+            top: 10px;*/
+    overflow: hidden;
+}
+
+    .cycle-pager span {
+        font-family: arial;
+        font-size: 50px;
+        margin-top: -20px;
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        color: #ddd;
+        cursor: pointer;
+    }
+
+        .cycle-pager span.cycle-pager-active {
+            color: #D69746;
+        }
+
+    .cycle-pager > * {
+        cursor: pointer;
+    }
+
+.normal {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Cambria;
+    padding: 10px;
+}
+
+.normal_small {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Cambria;
+    padding: 10px;
+}
+
+.normal_medium {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Cambria;
+    padding: 10px;
+}
+
+.canceled {
+    color: red;
+    font-weight: bold;
+}
+
+.reported {
+    color: orange;
+    font-weight: bold;
+}
+
+.titre1 {
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    font-family: Cambria;
+    color: #c83b05;
+}
+
+.titre2 {
+    width: 100%;
+    margin-top: -25px;
+    font-size: 50px;
+    font-family: cambria;
+    text-align: center;
+    color: #c83b05;
+}
+
+.titre3 {
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+    font-size: 40px;
+    font-family: cambria;
+    color: #000000;
+}
+
+.col_player_1 {
+    width: 200px;
+}
+
+.col_player_1_lieu {
+    width: 200px;
+}
+
+.col_player_2 {
+    width: 250px;
+}
+
+.col_player_normal {
+}
+
+.col_player_3 {
+    width: 240px;
+}
+
+.header {
+    background-color: #CC3300;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border-color:white;
+}
+
+.normal_row {
+    background-color: white;
+}
+
+.alternate_row {
+    background-color: #FFCCCC;
+}
+
+.deco_col {
+    background-color: #CC3300;
+}
+
+.deco_col_header {
+    width: 30px;
+    background-color: white;
+}
+
+
+.StylePageDefault .cycle-pager span.cycle-pager-active {
+   color: #CC3300;
+}
+
+
+.StylePageConseil .deco_col, .StylePageConseil .header {
+    background-color: #05999d;
+}
+
+.StylePageConseil .titre1, .StylePageConseil .titre2, .StylePageConseil .cycle-pager span.cycle-pager-active {
+    color: #05999d;
+}
+
+.StylePageConseil .alternate_row {
+    background-color: #cccccc;
+}
+
+.theme1 .deco_col, .theme1 .header {
+    background-color: #117102; 
+}
+
+.theme1 .titre1, .theme1 .titre2, .theme1 .cycle-pager span.cycle-pager-active {
+    color: #117102; 
+}
+
+.theme1 .alternate_row {
+    background-color: #9bfa8b;
+}
+
+.theme2 .deco_col,  .theme2 .header {
+    background-color: #9f6d03; 
+}
+
+.theme2 .titre1, .theme2 .titre2, .theme2 .cycle-pager span.cycle-pager-active  {
+    color: #9f6d03; 
+}
+
+.theme2 .alternate_row {
+    background-color: #f9d27e;
+}
+
+.theme3 .deco_col, .theme3 .header {
+    background-color: #960579; 
+}
+
+.theme3 .titre1, .theme3 .titre2, .theme3 .cycle-pager span.cycle-pager-active {
+    color: #960579; 
+}
+
+.theme3 .alternate_row {
+    background-color: #faa6e9;
+}
+
+.theme4 .deco_col, .theme4 .header {
+    background-color: #04719e; 
+}
+
+.theme4 .titre1, .theme4 .titre2, .theme4 .cycle-pager span.cycle-pager-active {
+    color: #04719e; 
+}
+
+.theme4 .alternate_row {
+    background-color: #a1dff8;
+}
+
+.theme5 .deco_col, .theme5 .header {
+    background-color: #a306cb; 
+}
+
+.theme5 .titre1, .theme5 .titre2, .theme5 .cycle-pager span.cycle-pager-active {
+    color: #a306cb; 
+}
+
+.theme5 .alternate_row {
+    background-color: #e99ffb;
+}
+
+.theme6 .deco_col, .theme6 .header {
+    background-color: #ff3300; 
+}
+
+.theme6 .titre1, .theme6 .titre2, .theme6 .cycle-pager span.cycle-pager-active {
+    color: #ff3300; 
+}
+
+.theme6 .alternate_row {
+    background-color: #ff9999;
+}
+
+.table_player
+    {
+        display: table;
+        width:1855px; /* 35px pour le padding-left de .main */
+        border-bottom: solid;
+        border-width: thin;
+       
+    }
+    .row_table_player
+    {
+        display: table-row;
+    }
+    .cell_table_player
+    {
+        display: table-cell;
+        border-left: solid;
+        border-width: thin;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+#slideshow > div {
+    display: none;
+}
